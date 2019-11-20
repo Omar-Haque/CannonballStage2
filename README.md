@@ -1,2 +1,1 @@
-# p5.play-boilerplate
-Boiler plate for p5.play
+The second phase in the cannonball game.
