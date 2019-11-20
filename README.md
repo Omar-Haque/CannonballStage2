@@ -1,2 +1,2 @@
-# CannonballStage2
-Second phase of the cannonball shooter game.
+# p5.play-boilerplate
+Boiler plate for p5.play
