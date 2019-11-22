@@ -1,15 +1,16 @@
 class Ball{
     constructor(x, y, radius){
         var options = {
+            restitution: 1.0,
+            frictionStatic: 0,
             frictionAir: 0,
             friction: 0,
-            inertia: Infinity,
-            restitution: 1.0,
-            frictionStatic: 1
+            inertia: Infinity
         }
         this.body = Bodies.circle(x, y, radius, options);
-        this.radius = radius;
         World.add(world, this.body);
+        this.radius = radius;
+        World.add(world,this.body);
     };
 
     display(){
