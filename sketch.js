@@ -10,18 +10,20 @@ function setup() {
   createCanvas(900, 550);
   engine = Engine.create();
   world = engine.world;
-  ground = new Ground(450, 510, 900, 10); 
+  ground = new Ground(450, 530, 900, 50); 
   cannon = new Cannon(75,height-125,60,30);
   ball1 = new Ball(600, 250, 20);
+  ball2 = new Ball(700, 250, 20);
+  ball3 = new Ball(500, 250, 20);
 }
 
 function draw() {
   background(255);
-  //console.log(angle);
   Engine.update(engine);
-console.log(ball1.body);
   //Display
   ground.display();
   cannon.display();
   ball1.display();
+  ball2.display();
+  ball3.display();
 }
