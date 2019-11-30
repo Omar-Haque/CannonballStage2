@@ -1,5 +1,7 @@
-//This is the cannonball game project 24
-const { Engine, World, Bodies, Body, Mouse, MouseConstraint, Constraint, Composite, Detector} = Matter;
+//This is the cannonball game project 26
+const Engine = Matter.Engine;
+const World = Matter.World;
+const Bodies = Matter.Bodies;
 
 var engine, world;
 var ground, cannon;
